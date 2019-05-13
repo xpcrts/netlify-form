@@ -411,22 +411,22 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 							<form name="form" method="POST" data-netlify="true">
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" placeholder="Name" required/>
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" />
+										<input type="email" name="email" id="email" placeholder="Email" required/>
 									</div>
 									<div class="field">
-										<input type="date" name="calendar">
+										<input type="date" name="calendar" required>
 									</div>
 									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+										<textarea name="message" id="message" placeholder="Message" rows="7" required></textarea>
 									</div>
 									<div class="field">
-										<input type="file" name="file" id="file" placeholder="Upload File" rows="7" />
+										<input type="file" name="file" id="file" placeholder="Upload File" rows="7" required/>
 									</div>
 									<div class="field">
-										<div data-netlify-recaptcha="true"></div>
+										<div data-netlify-recaptcha="true" required></div>
 									</div>
 								</div>
 								<ul class="actions">
